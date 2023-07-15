@@ -33,16 +33,17 @@ export const GlobalStyles = createGlobalStyle`
         height: 100vh;
         max-height: 100vh;
         max-width: 100vw;
+        overflow-x: hidden;
         transition-delay: 2s;
-        background-color: #141414;
-        overflow: hidden !important;        
+        /* background-color: #141414; */
+      
     }
 
     :root{
        --red__defaultColor: #D10050;
-       background-color: #1C1C1C;
+       /* background-color: #1C1C1C; */
        --player_Color: #D10050;
-       overflow: hidden !important;
+       overflow-x: hidden;
     }
     
     ::-webkit-scrollbar {

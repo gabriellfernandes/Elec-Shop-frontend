@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Header from "./Components/Header";
+import ProductPage from "./Pages/Product";
 
 function App() {
   return (
     <>
-      <Header />
+      <ProductPage />
     </>
   );
 }
