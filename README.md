@@ -5,7 +5,8 @@
 1. [Sobre](#sobre)
 2. [Instalação](#install)
 3. [Tecnologias](#tec)
-4. [Desenvolvedor](#devs)
+4. [Backend](#backend)
+5. [Desenvolvedor](#devs)
 6. [Termos de uso](#terms)
 
 ---
@@ -41,6 +42,8 @@
 
   ```
 ---
+<a name="tec"></a>
+
 ### 3 Tecnologias
 
 ```
@@ -56,9 +59,14 @@ REACT-ROUTER-DOM
 
 ```
 
+<a name="backend"></a>
+
+## 4. Back-End
+- <a name="Repositorio Back-End" href="https://github.com/gabriellfernandes/Elec-Shop-backend" target="_blank">Repositorio Back-End</a>
+
 <a name="devs"></a>
 
-## 4. Desenvolvedor
+## 5. Desenvolvedor
 
 [ Voltar para o topo ](#tabela-de-conteúdos)
 
@@ -66,7 +74,7 @@ REACT-ROUTER-DOM
 
 <a name="terms"></a>
 
-## 5. Termos de uso
+## 6. Termos de uso
 
 Este é um projeto Open Source para fins educacionais e não comerciais, **Tipo de licença** - <a name="mit" href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>
 
