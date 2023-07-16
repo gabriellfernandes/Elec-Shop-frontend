@@ -34,7 +34,7 @@ export const ContainerNav = styled.div`
   }
 `;
 
-export const ContainerSearch = styled.div`
+export const ContainerSearch = styled.form`
   width: 250px;
   height: 40px;
   display: flex;

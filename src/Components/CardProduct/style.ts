@@ -23,6 +23,7 @@ export const CardImage = styled.img`
   height: 100%;
   margin-bottom: 10px;
   object-fit: contain;
+  border-radius: 24px;
 `;
 
 export const CardContainerText = styled.div`
@@ -50,6 +51,7 @@ export const InfoName = styled.h4`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-transform: capitalize;
 `;
 
 export const InfoMarking = styled.span`
@@ -64,6 +66,7 @@ export const InfoMarking = styled.span`
   white-space: nowrap;
   font-weight: 700;
   line-height: normal;
+  text-transform: uppercase;
 `;
 
 export const Description = styled.p`

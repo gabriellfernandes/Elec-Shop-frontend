@@ -21,8 +21,13 @@ export const ContainerMarkings = styled.div`
   background: #f4f4f4;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  height: 240px;
+  height: 360px;
   padding-top: 20px;
+  min-width: 200px;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 `;
 
 export const ContainerNavLinks = styled.div`
@@ -71,6 +76,16 @@ export const NavLinks = styled.button<Props>`
   }
 `;
 
+export const Div = styled.div`
+  @media (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+`;
+
 export const ContainerProducts = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -78,10 +93,46 @@ export const ContainerProducts = styled.div`
   margin-right: 60px;
   margin-top: 40px;
   gap: 40px;
+  grid-template-columns: repeat(5, 1fr);
+
+  @media (max-width: 1380px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 1160px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media (max-width: 500px) {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+  }
+`;
+
+export const ContainerTitle = styled.div`
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  .pointer {
+    cursor: pointer;
+  }
 `;
 
 export const Title = styled.h4`
-  display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
   border-bottom: 2px solid black;
@@ -89,6 +140,7 @@ export const Title = styled.h4`
   font-size: 24px;
   color: #2d2b2b;
   font-family: Poppins;
+
   font-weight: 700;
   text-align: center;
 `;
