@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Logo from "../../../Assets/logo.png";
 import * as Style from "./style";
 
 const Aside = ({ active }: { active: boolean }) => {

@@ -1,7 +1,5 @@
-import React from "react";
 import styled, { keyframes } from "styled-components";
 
-// Keyframes para animação do loading
 const spin = keyframes`
   from {
     transform: rotate(0deg);

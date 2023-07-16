@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import CardProduct from "../../Components/CardProduct";
 import Header from "../../Components/Header";
 import ImageProduct from "../../Assets/product_image.webp";
